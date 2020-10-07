@@ -7,4 +7,6 @@ echo -e "deb https://deb.parrot.sh/parrot/ rolling main contrib non-free
 
 apt-key adv --keyserver keys.gnupg.net --recv-keys B56FFA946EB1660A
 apt update
-apt install parrot-meta-web
+apt install parrot-meta-web parrot-meta-pwtools git
+git clone https://github.com/danielmiessler/SecLists.git && mv SecLists /usr/share/wordlists/
+git clone https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite.git && mv privilege-escalation-awesome-scripts-suite /opt/
