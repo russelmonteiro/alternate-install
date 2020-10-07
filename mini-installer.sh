@@ -7,4 +7,4 @@ echo -e "deb https://deb.parrot.sh/parrot/ rolling main contrib non-free
 
 apt-key adv --keyserver keys.gnupg.net --recv-keys B56FFA946EB1660A
 apt update
-apt install parrot-pico
+apt install parrot-meta-web
